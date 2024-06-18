@@ -6,4 +6,4 @@ Descrição do projeto: O site busca apresentar alguns colaboradores da empresa 
 
 Tecnologias utilizadas: Nessa primeira parte do projeto, foram aplicadas configurações de Media Query para a parte de responsividade.
 
-Link do site:
+Link do site: https://leticia-goliczevski-medeiros.github.io/web_project_homeland/
