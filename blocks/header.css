@@ -1,15 +1,17 @@
 .header {
   padding-top: 34px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 90px;
+  align-items: center;
 }
 .header__logo {
-  display: block;
-  margin: 0 auto 90px;
   max-width: 254px;
 }
 .header__content {
   max-width: 984px;
-  margin: auto;
 }
 .header__title {
   font-family: "Inter", Arial, sans-serif;
@@ -34,18 +36,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header__content {
-    max-width: 100%;
-    margin: 0;
-  }
-  .header__title {
-    font-size: 86px;
-    max-width: 620px;
-  }
-}
-@media screen and (max-width: 768px) {
   .header {
     padding-top: 30px;
+  }
+  .header__content {
+    max-width: 100%;
   }
   .header__title {
     font-size: 75px;
@@ -57,25 +52,12 @@
     margin: 0 auto 30px;
   }
 }
-@media screen and (max-width: 544px) {
-  .header__logo {
-    margin: 0 auto 70px;
-  }
-  .header__title {
-    font-size: 55px;
-    max-width: 430px;
-  }
-  .header__description {
-    font-size: 24px;
-    max-width: 420px;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .header {
     padding-top: 20px;
+    row-gap: 50px;
   }
   .header__logo {
-    margin: 0 auto 50px;
     max-width: 188px;
   }
   .header__title {

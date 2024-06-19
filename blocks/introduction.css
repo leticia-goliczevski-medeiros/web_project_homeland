@@ -1,10 +1,14 @@
 .introduction {
   padding-top: 92px;
-  width: 100%;
+  max-width: 100%;
 }
 .introduction__content {
   max-width: 830px;
   margin: 0 302px 0 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .introduction__title {
   font-family: "Inter", Arial, sans-serif;
@@ -32,6 +36,7 @@
   text-align: right;
   max-width: 732px;
   margin: 0 98px 32px 0;
+  align-self: flex-end;
 }
 .introduction__text {
   font-family: "Inter", Arial, sans-serif;
@@ -44,28 +49,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .introduction__content {
-    max-width: 775px;
-    margin: 0 auto;
-  }
-  .introduction__title {
-    font-size: 50px;
-    margin: 0 0 45px;
-  }
-  .introduction__quote {
-    max-width: 100%;
-    margin: 0 0 10px;
-  }
-  .introduction__quote-author {
-    max-width: 100%;
-    margin: 0 0 32px;
-  }
-  .introduction__text {
-    max-width: 100%;
-    margin: 0;
-  }
-}
-@media screen and (max-width: 768px) {
   .introduction {
     padding-top: 90px;
   }
@@ -80,35 +63,31 @@
     margin: 0 13px 50px 0;
   }
   .introduction__quote {
+    max-width: 100%;
+    margin: 0;
+  }
+  .introduction__quote-author {
+    max-width: 100%;
+    margin: 0 0 32px;
+  }
+  .introduction__text {
+    max-width: 100%;
     margin: 0;
   }
 }
-@media screen and (max-width: 544px) {
-  .introduction {
-    padding-top: 75px;
-  }
-  .introduction__content {
-    max-width: 500px;
-    margin: 0 20px;
-  }
-  .introduction__title {
-    font-size: 34px;
-    max-width: 100%;
-    margin: 0 0 45px;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
   .introduction {
     padding-top: 64px;
   }
   .introduction__content {
-    max-width: 288px;
+    max-width: 100%;
     margin: 0 16px;
   }
   .introduction__title {
     font-size: 32px;
     line-height: 1.09;
     margin: 0 0 40px;
+    max-width: 100%;
   }
   .introduction__quote {
     line-height: 1.25;
