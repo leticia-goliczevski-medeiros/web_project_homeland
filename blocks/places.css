@@ -78,7 +78,7 @@
   width: 356.08px;
   padding: 13px 20px;
   border: none;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
   text-decoration: none;
